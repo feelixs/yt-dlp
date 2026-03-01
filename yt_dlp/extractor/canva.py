@@ -12,7 +12,7 @@ from ..utils import (
 
 
 class CanvaIE(InfoExtractor):
-    _VALID_URL = r'https?://(?:www\.)?canva\.com/design/(?P<id>[^/]+)/(?P<token>[^/]+)/(?:watch|view)'
+    _VALID_URL = r'https?://(?:www\.)?canva\.com/design/(?P<id>[^/]+)/(?P<token>[^/]+)/(?:watch|view|edit)'
     _TESTS = [{
         'url': 'https://www.canva.com/design/DAHCj8E06us/zCnY6t5K6kLGjZbF_ip0Jg/watch',
         'info_dict': {
